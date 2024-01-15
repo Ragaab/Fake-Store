@@ -1,0 +1,70 @@
+.landing {
+    background-image: url("../images/bg_hero.svg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media (min-width: 992px) {
+    .landing {
+        display: flex;
+        align-items: end;
+    }
+    .landing .container img {
+        display: block !important;
+    }
+}
+
+.landing .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.landing .container .text {
+    text-transform: uppercase;
+    width: 500px;
+}
+
+@media (max-width: 992px) {
+    .landing .container .text {
+        width: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .landing .container .text {
+        width: 236px;
+    }
+}
+
+.landing .container .text h1 {
+    font-weight: 400;
+}
+
+.landing .container .text h1 span {
+    font-weight: bold;
+}
+
+.landing .container .text .trend {
+    font-weight: 500;
+    position: relative;
+    padding-left: 30px;
+}
+
+.landing .container .text .trend::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    height: 2px;
+    width: 25px;
+    background-color: #dc3549;
+}
+.landing .container .text .more {
+    font-weight: 500;
+    border-bottom: 2px solid black;
+}

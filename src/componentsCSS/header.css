@@ -1,0 +1,38 @@
+* {
+    list-style-type: none;
+}
+.header {
+    background-color: transparent;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    padding-top: 100px;
+}
+
+.bag {
+    cursor: pointer;
+}
+
+.cart-count {
+    width: 14px;
+    height: 14px;
+    background-color: #dc3549;
+    bottom: -7px;
+    right: -7px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.header .container > img {
+    width: 30px;
+}
+
+.background {
+    background-color: white;
+    box-shadow: -4px 0px 5px 2px rgba(0, 0, 0, 0.13);
+}
