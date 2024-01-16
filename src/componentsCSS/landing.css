@@ -29,18 +29,26 @@
 }
 
 @media (max-width: 992px) {
+    .landing .container {
+        justify-content: center;
+    }
     .landing .container .text {
-        width: 400px;
+        /* width: 400px; */
+        text-align: center;
+    }
+    .landing .container .text h1 {
+        font-size: 30px;
     }
 }
 
 @media (max-width: 576px) {
-    .landing .container .text {
+    /* .landing .container .text {
         width: 236px;
-    }
+    } */
 }
 
 .landing .container .text h1 {
+    margin: 5px 0;
     font-weight: 400;
 }
 
